@@ -1,6 +1,6 @@
 {
   "name": "to-zero",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Command line tool to countdown to zero and natively notify",
   "main": "index.js",
   "scripts": {
