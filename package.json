@@ -4,7 +4,8 @@
   "description": "Command line tool to countdown to zero and natively notify",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "preversion": "npm test"
   },
   "repository": {
     "type": "git",
