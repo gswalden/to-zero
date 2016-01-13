@@ -1,0 +1,34 @@
+{
+  "name": "to-zero",
+  "version": "0.0.0",
+  "description": "Command line tool to countdown to zero and natively notify",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/gswalden/to-zero"
+  },
+  "keywords": [
+    "countdown",
+    "timer",
+    "cli"
+  ],
+  "author": "Greg Walden <hi@gsw.nyc>",
+  "license": "ISC",
+  "preferGlobal": true,
+  "dependencies": {
+    "daemon": "^1.1.0",
+    "human-date": "^1.3.2",
+    "minimist": "^1.2.0",
+    "ms": "^0.7.1",
+    "node-notifier": "^4.3.1",
+    "progress": "^1.1.8",
+    "timer.js": "^1.0.4"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
