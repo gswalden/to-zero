@@ -1,3 +1,4 @@
+[![npm version](https://badge.fury.io/js/to-zero.svg)](https://badge.fury.io/js/to-zero)
 [![Build status](https://travis-ci.org/gswalden/to-zero.svg?branch=master)](https://travis-ci.org/gswalden/to-zero)
 [![Dependencies](https://david-dm.org/gswalden/to-zero.svg)](https://david-dm.org/gswalden/to-zero)
 
