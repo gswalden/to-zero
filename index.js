@@ -10,6 +10,7 @@ const ms = require('ms')
   ;
 
 if (argv.d) {
+  log('Timer started');
   require('daemon')();
 }
 
@@ -36,7 +37,10 @@ function toZero(timeArg, done) {
   }).start(time / 1000);
   
   function onstart() {
-    const timeStr = hdate.relativeTime(time / 1000, { futureSuffix: '…' });
+    const timeStr = hdate.relativeTime(time / 1000, {
+      futureSuffix: '…',
+      allUnits: true
+    });
     log(`Counting down ${timeStr}`);
     bar = new ProgressBar('[:bar]', {
       complete: '=',
